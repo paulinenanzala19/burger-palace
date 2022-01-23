@@ -114,3 +114,13 @@ nav>ul{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.menu-item{
+    width: 25%;
+    border-radius: 10px;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    box-shadow: rgba(0,0,0,0.35) opx 5px 15px;
+}
