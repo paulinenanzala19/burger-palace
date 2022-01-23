@@ -94,3 +94,14 @@ nav>ul{
     width: 35%;
     border-radius: 10px;
 }
+.menus{
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30%;
+    margin-top: 8rem;
+    position: relative;
+    height: 40rem;
+    background-color: rgb(255,255, 255);
+    flex-direction: column;
+    display: flex;
+}
