@@ -33,3 +33,9 @@ nav>ul{
     font-style: italic;
     font-size: 1.5rem;
 }
+
+.title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    align-items: center;
+}
