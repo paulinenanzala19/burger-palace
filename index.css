@@ -6,3 +6,8 @@
 .logo-img{
     height:3rem;
 }
+.champ{
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+}
