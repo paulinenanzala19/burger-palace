@@ -105,3 +105,6 @@ nav>ul{
     flex-direction: column;
     display: flex;
 }
+.menutitle{
+    text-align: center;
+}
