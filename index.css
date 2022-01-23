@@ -108,3 +108,9 @@ nav>ul{
 .menutitle{
     text-align: center;
 }
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
