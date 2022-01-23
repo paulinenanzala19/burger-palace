@@ -20,3 +20,16 @@
     flex-direction: column-reverse;
     display: flex;
 }
+ul{
+    list-style-type: none;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title{
+    color:#F6B400;
+    font-style: italic;
+    font-size: 1.5rem;
+}
