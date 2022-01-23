@@ -44,3 +44,35 @@ nav>ul{
     font-size: 1.5rem;
     color: gray;
 }
+.far-right{
+    display: flex;
+    float: left;
+    width: 70%;
+    justify-content: inherit;
+    padding-right: 3%;
+}
+.far-left{
+    display: flex;
+    float: left;
+}
+.order-btn{
+    background-color: #F6B400;
+    width: fit-content;
+    padding: 4%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.pauline{
+    display: flex;
+    height: 45rem;
+    flex-direction: row;
+    position: relative;
+    margin-top: auto;
+    justify-content: space-around;
+    margin-bottom: 25%;
+    background-color: #edf5f1;
+    align-items: center;
+
+}
