@@ -151,7 +151,16 @@ nav>ul{
     justify-content: center;
 }
 .vat-image> img{
-    height: 20%;
+    border: 1px solid purple;
+    text-align: center;
+    align-items: center;
+    height: 5rem;
+    padding-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: 1px solid purple;
+    justify-content: space-between;
+    width: fit-content;
 }
 .vat-title{
     font-size: 2rem;
@@ -166,8 +175,21 @@ nav>ul{
     width: 15px;
     background-color: #F6B400;
     border-radius: 40%;
-    display: inline-block;
+    display: inline-flex;
+
 }
+.play{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6B400;
+    height: 30rem;
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
 
 
 
