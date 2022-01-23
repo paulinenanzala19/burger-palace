@@ -78,10 +78,10 @@ nav>ul{
 }
 .quality-item{
     width: 35%;
-    padding-top: 4%;
+    padding-top: 2%;
     align-items: center;
-    border-radius: 10px;
-    height: 20%;
+    border-radius: 8px;
+    height: 8%;
     border: 1px solid purple;
     text-align: center;
 }
@@ -124,3 +124,22 @@ nav>ul{
     margin-bottom: 3%;
     box-shadow: rgba(0,0,0,0.35) opx 5px 15px;
 }
+.menu-image{
+    border: 1px solid purple;
+    text-align: center;
+    align-items: center;
+    height: 5rem;
+    padding-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: 1px solid purple;
+    justify-content: space-between;
+    width: fit-content;
+
+}
+.head1{
+    background: linear-gradient(120deg, #fff50%, #F6B400 50%);
+    height:45rem;
+}
+
+
