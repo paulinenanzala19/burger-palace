@@ -85,3 +85,12 @@ nav>ul{
     border: 1px solid purple;
     text-align: center;
 }
+.quality-item-middle{
+    height: 20%;
+    padding-top: 4%;
+    align-items: center;
+    border: 1px solid purple;
+    text-align: center;
+    width: 35%;
+    border-radius: 10px;
+}
