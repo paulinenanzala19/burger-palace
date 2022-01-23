@@ -189,7 +189,16 @@ nav>ul{
     justify-content: space-around;
 
 }
-
+.large{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.left-play{
+    padding-left: 20%;
+}
+.apps{
+    width: 20rem;
+}
 
 
 
