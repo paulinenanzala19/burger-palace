@@ -207,11 +207,46 @@ nav>ul{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2%%;
-    padding-right: 2%%;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: #edf5f1;
     padding-top: 2%;
 }
+.sbn{
+    display: flex;
+    margin-top: 1rem;
+
+}
+.input-sub{
+    height: 2rem;
+    font-weight: bold;
+
+}
+.input-suffix{
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 350;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    background-color: #F6B400;
+    border: 1px solid #F6B400;
+    width: 25%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display:table-cell;
+}
+.footer-bottom{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
 
 
 
