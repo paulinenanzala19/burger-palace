@@ -12,9 +12,12 @@
     height: 40rem;
 }
 .matrix{
-    width: 80px;
+    width: 100%;
     padding-top: 15%;
     padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
 }
 .navbar{
     flex-direction: column-reverse;
@@ -35,14 +38,15 @@ nav>ul{
 }
 
 .title{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    align-items: center;
+    width: 50%;
 }
 .subtitle{
     margin-bottom: 2.4rem;
     font-size: 1rem;
     color: gray;
+    left: -20px;
 }
 .far-right{
     display: flex;
@@ -72,7 +76,7 @@ nav>ul{
     margin-top: auto;
     justify-content: space-around;
     margin-bottom: 25%;
-    background-color: #edf5f1;
+    background-color:azure;
     align-items: center;
 
 }
@@ -99,22 +103,32 @@ nav>ul{
 .menus{
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30%;
-    margin-top: 8rem;
+    /* margin-bottom: 30%;
+    margin-top: 8rem; */
     position: relative;
-    height: 40rem;
+    /* height: 40rem; */
     background-color: rgb(255,255, 255);
     flex-direction: column;
     display: flex;
+    text-decoration: underline;
 }
 .menutitle{
     text-align: center;
 }
 .menu-items{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 8%;
+    padding-top: 1%;
+    align-items: center;
+    border: 1px solid purple;
+    text-align: center;
+    width: 30%;
+    border-radius: 8px;
+    display: inline-table;
+    justify-content: space-evenly;
+}
+.menu-image{
+    width:50%;
+
 }
 .menu-item{
     width: 25%;
@@ -127,17 +141,6 @@ nav>ul{
     box-shadow: rgba(0,0,0,0.35) opx 5px 15px;
     
 }
-.menu-image{
-    border: 1px solid purple;
-    text-align: center;
-    align-items: center;
-    height: 5rem;
-    padding-top: 1%;
-    margin-bottom: 3%;
-    border-radius: 10px;
-    border: 1px solid purple;
-    justify-content: space-between;
-    width: fit-content;
     
 
 }
@@ -158,13 +161,13 @@ nav>ul{
     border: 1px solid purple;
     text-align: center;
     align-items: center;
-    height: 5rem;
+    /* height: 5rem; */
     padding-top: 2%;
     margin-bottom: 3%;
     border-radius: 10px;
     border: 1px solid purple;
     justify-content: space-between;
-    width: fit-content;
+    width: 100%;
 }
 .vat-title{
     font-size: 2rem;
@@ -182,15 +185,16 @@ nav>ul{
     display: inline-flex;
 
 }
-.play{
+#play{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     background-color: #F6B400;
     height: 30rem;
     position: relative;
     margin-top: auto;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
+    background-color: #F6B400;
 
 }
 .large{
@@ -198,10 +202,27 @@ nav>ul{
     font-weight: bold;
 }
 .left-play{
-    padding-left: 20%;
+    /* padding-left: 20%; */
+    width: 50%;
 }
-.apps{
-    width: 20rem;
+.apps{                       
+    width: 100%;
+}
+.right-play{
+     /* width: 50%; */
+    display: flex;
+    /* border: solid 3px black; */
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.right-play> img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+
 }
 .mobile-app{
     height: 30rem;
@@ -249,21 +270,78 @@ nav>ul{
     padding-left: 2%;
     padding-right: 2%;
 }
-.city{
-    align-content: space-between;
-    background-color: #F6B400;
+
+    
+}
+.box{
+    display: flex;
+    height: 45rem;
+    flex-direction: row;
+    position: relative;
+    margin-top: auto;
+    justify-content: space-around;
+    margin-bottom: 25%;
+    background-color: #edf5f1;
+    align-items: center;
+    
+}
+.page{
+    display: flex;
+    width: 100%;
+    font-size: x-large;
+}
+.left, .right{
+    width: 50%;
+    display: flex;
     flex-direction: column;
-    
-
-;
 }
-
-    
-
-    
-    
+img{
+    width: 100%;
+    height: 100%;
 }
+#order-now{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border-bottom-right-radius:0px ;
+    background-color: #F6B400;
+}
+.left{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.vat{
+    display: flex;
+    width: 100%;
+}
+.vat-left, .vat-right{
+    width: 50%;
+}
+.top{
+    position: relative;
+    width: 50%;
+}
+.bottom{
+    /* position: absolute; */
+    width: 50%;
+}
+.vat-right{
+    border: 3px black solid;
 
+}
+.vat-left{
+    font-size: x-large;
+}
+.left-play{
+    font-size: x-large;
 
-
-
+}
+.vat{
+    background-color: azure;
+}
+#quality{
+    background-color: azure;
+}
+.right{
+    background: linear-gradient(100deg,white 50%,#F6B400 50% );
+}
